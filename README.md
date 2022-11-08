@@ -68,16 +68,16 @@ RegisterNumber:  212221230081
 #### UP COUNTER
 
 ````
-module up(input clk,input reset,output[0:3]counter);
-reg[0:3] counter_up;
-always@(posedge clk or posedge reset)
+module upcounter(clock,reset,up);
+input clock,reset;
+output reg[0:2] up;
+always@(posedge clock or posedge reset)
 begin
 if(reset)
-counter_up <=4'd0;
+up=3'b 000;
 else
-counter_up<=counter_up+4'd1;
+up=up+1;
 end
-assign counter=counter_up;
 endmodule
 
 ````
@@ -101,7 +101,6 @@ endmodule
 
 #### UP COUNTER
 
-![RTL1](https://user-images.githubusercontent.com/93901857/200124054-b8ae8abf-ee05-4c25-99e3-66d5da77cb97.jpg)
 
 #### DOWN COUNTER
 
@@ -113,7 +112,6 @@ endmodule
 ### TIMING DIGRAMS FOR COUNTER  
 
 #### UP COUNTER
-![TD1](https://user-images.githubusercontent.com/93901857/200124056-06aae4ab-3f93-45cf-a56f-1805a93eb78e.jpg)
 
 
 #### DOWN COUNTER
@@ -133,5 +131,5 @@ endmodule
 
 
 ### RESULTS 
-Thus 4 bit up and down counters is implemented and its functionality is validated.
+Thus 3 bit up and down counters is implemented and its functionality is validated.
 
