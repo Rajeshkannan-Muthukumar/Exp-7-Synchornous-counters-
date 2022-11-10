@@ -100,24 +100,19 @@ endmodule
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
 #### UP COUNTER
-
+![UP_RTL](https://user-images.githubusercontent.com/93901857/201064110-26df27d4-9897-4f5b-9a69-b1829269ed8c.png)
 
 #### DOWN COUNTER
-
-
-![RTL2](https://user-images.githubusercontent.com/93901857/200124055-94eed22f-80c9-4fee-b4b7-d36ed19b3582.jpg)
-
-
+![DOWN_RTL](https://user-images.githubusercontent.com/93901857/201066562-2ca7e93a-9a76-498f-8fde-02a5753893d3.png)
 
 ### TIMING DIGRAMS FOR COUNTER  
 
 #### UP COUNTER
+![UP_TIME](https://user-images.githubusercontent.com/93901857/201064120-e2e79d7b-8b0d-4d49-9333-2322b85d1b46.png)
 
 
 #### DOWN COUNTER
-
-![TD2](https://user-images.githubusercontent.com/93901857/200124060-16dc7e39-3f4c-4211-9dc9-73020dee0cc4.jpg)
-
+![DOWN_TIME](https://user-images.githubusercontent.com/93901857/201066594-e10cec90-6e5a-4f64-b4fd-f6df38e5686e.png)
 
 ### TRUTH TABLE 
 
