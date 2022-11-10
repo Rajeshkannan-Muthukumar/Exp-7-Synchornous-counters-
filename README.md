@@ -84,16 +84,16 @@ endmodule
 
 #### DOWN COUNTER
 ```
-module DOWN(input clk,input reset,output[0:3]counter);
-reg[0:3] counter_down;
-always@(posedge clk or posedge reset)
+module DOWN(clock,reset,up);
+input clock,reset;
+output reg[2:0] up;
+always@(posedge clock or posedge reset)
 begin
 if(reset)
-counter_down <=4'd0;
+up=3'b 111;
 else
-counter_down<=counter_down+4'd1;
+up=up-1;
 end
-assign counter=counter_down;
 endmodule
 
 ```
