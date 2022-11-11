@@ -86,13 +86,13 @@ endmodule
 ```
 module DOWN(clock,reset,down);
 input clock,reset;
-output reg[2:0] up;
+output reg[2:0] down;
 always@(posedge clock or posedge reset)
 begin
 if(reset)
 down=3'b 111;
 else
-down=up-1;
+down=down-1;
 end
 endmodule
 
