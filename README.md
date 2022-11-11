@@ -84,15 +84,15 @@ endmodule
 
 #### DOWN COUNTER
 ```
-module DOWN(clock,reset,up);
+module DOWN(clock,reset,down);
 input clock,reset;
 output reg[2:0] up;
 always@(posedge clock or posedge reset)
 begin
 if(reset)
-up=3'b 111;
+down=3'b 111;
 else
-up=up-1;
+down=up-1;
 end
 endmodule
 
@@ -103,7 +103,7 @@ endmodule
 ![UP_RTL](https://user-images.githubusercontent.com/93901857/201064110-26df27d4-9897-4f5b-9a69-b1829269ed8c.png)
 
 #### DOWN COUNTER
-![DOWN_RTL](https://user-images.githubusercontent.com/93901857/201066562-2ca7e93a-9a76-498f-8fde-02a5753893d3.png)
+![DOWN_RTL](https://user-images.githubusercontent.com/93901857/201305443-47033f0d-1c43-4b49-9a00-b8ae07b271ea.png)
 
 ### TIMING DIGRAMS FOR COUNTER  
 
