@@ -112,7 +112,7 @@ endmodule
 
 
 #### DOWN COUNTER
-![DOWN_TIME](https://user-images.githubusercontent.com/93901857/201066594-e10cec90-6e5a-4f64-b4fd-f6df38e5686e.png)
+![DOWN_TIME](https://user-images.githubusercontent.com/93901857/201306067-89ff8404-7c98-4966-9f53-d1b80c2be57b.png)
 
 ### TRUTH TABLE 
 
